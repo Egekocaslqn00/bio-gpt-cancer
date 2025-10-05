@@ -1,0 +1,1 @@
+# Research Notes & Observations\n\n- Model shows high sensitivity to gene expression variance\n- Attention maps reveal critical regulatory pathways in early-stage cancer\n- Potential for cross-species cell state prediction needs further investigation
