@@ -1,0 +1,1 @@
+# Data Sources & Biological Significance\n\n- Primary data: Single-cell RNA sequencing (scRNA-seq) from public repositories.\n- Significance: scRNA-seq allows for high-resolution analysis of cell states, crucial for identifying early-stage cancer markers.
