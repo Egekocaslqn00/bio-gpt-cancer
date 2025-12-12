@@ -10,10 +10,10 @@ Bu proje, sadece yüksek doğruluk elde etmekle kalmaz, aynı zamanda biyolojik 
 
 | Metrik | Sonuç | Açıklama |
 | :--- | :--- | :--- |
-| **Tahmin Doğruluğu** | **%99.10** | Modelimiz, daha önce görülmemiş test verilerinde %99'un üzerinde bir doğrulukla hücre durumunu doğru bir şekilde sınıflandırmıştır. |
+| **Tahmin Doğruluğu** | **%98.70** | Modelimiz, daha önce görülmemiş test verilerinde %98.70 doğrulukla hücre durumunu doğru bir şekilde sınıflandırmıştır. |
 | **Yorumlama Kabiliyeti** | **%100 Şeffaflık** | Attention mekanizması sayesinde, modelin hangi genlere odaklandığını %100 şeffaf bir şekilde analiz ederek, kanserle ilişkili kritik genleri belirledik. |
 | **Analiz Hızlandırma** | **%70 Daha Hızlı** | Veri hazırlama ve ön işleme adımlarını otomatize ederek, manuel bir analize kıyasla süreci yaklaşık %70 oranında hızlandırdık. |
-| **Potansiyel İlaç Keşfi** | **Hedef Gen Belirleme** | Modelin önemli bulduğu genler (örn. Gene_788, Gene_917), yeni ilaç hedefleri veya biyobelirteçler için potansiyel adaylardır. Bu, ilaç geliştirme maliyetlerini düşürebilir. |
+| **Potansiyel İlaç Keşfi** | **Hedef Gen Belirleme** | Modelin önemli bulduğu genler (örn. Gene_143, Gene_647), yeni ilaç hedefleri veya biyobelirteçler için potansiyel adaylardır. Bu, ilaç geliştirme maliyetlerini düşürebilir. |
 
 ---
 
@@ -33,7 +33,7 @@ Bu proje, sadece yüksek doğruluk elde etmekle kalmaz, aynı zamanda biyolojik 
 ![Model Eğitimi Sonuçları](./results/02_transformer_training.png)
 
 **📈 Sonuçlar:**
-- **Doğruluk (Accuracy):** Model, 23 epoch sonunda **%99.10 test doğruluğuna** ulaşmıştır. Eğitim ve validasyon doğruluk eğrilerinin birlikte hareket etmesi, modelin ezber yapmadığını (overfitting) gösterir.
+- **Doğruluk (Accuracy):** Model, 23 epoch sonunda **%98.70 test doğruluğuna** ulaşmıştır. Eğitim ve validasyon doğruluk eğrilerinin birlikte hareket etmesi, modelin ezber yapmadığını (overfitting) gösterir.
 - **Hata Oranı (Loss):** Eğitim ilerledikçe hata oranı başarılı bir şekilde düşürülmüştür.
 - **Karışıklık Matrisi (Confusion Matrix):** Modelin özellikle "Healthy" ve "Early_Cancer" sınıflarını **hatasız** tahmin ettiği, diğer sınıflarda ise çok küçük hata payları olduğu görülmektedir.
 
@@ -42,8 +42,8 @@ Bu proje, sadece yüksek doğruluk elde etmekle kalmaz, aynı zamanda biyolojik 
 ![Attention Analizi Sonuçları](./results/03_attention_analysis.png)
 
 **📈 Sonuçlar:**
-- **En Önemli Genler:** Model, hücre durumunu tahmin ederken en çok **Gene_788, Gene_917, ve Gene_484** gibi genlere odaklanmıştır. Bu genler, kanser araştırmaları için potansiyel hedefler olabilir.
-- **Tahmin Güveni:** Model, tahminlerini ortalama **%99.83 güvenle** yapmaktadır. Bu, modelin kararlılığını ve güvenirliğini gösterir.
+- **En Önemli Genler:** Model, hücre durumunu tahmin ederken en çok **Gene_143, Gene_647, ve Gene_613** gibi genlere odaklanmıştır. Bu genler, kanser araştırmaları için potansiyel hedefler olabilir.
+- **Tahmin Güveni:** Model, tahminlerini ortalama **%99.91 güvenle** yapmaktadır. Bu, modelin kararlılığını ve güvenirliğini gösterir.
 - **Gen Uzayı (Embedding Space):** Genlerin anlamsal olarak temsil edildiği uzayda, farklı hücre türlerinin kümeler oluşturduğu görülmektedir. Bu, modelin genler arasındaki biyolojik ilişkileri öğrendiğini kanıtlar.
 
 ---

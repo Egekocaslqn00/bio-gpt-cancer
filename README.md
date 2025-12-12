@@ -10,10 +10,10 @@ This project not only achieves high accuracy but also provides tangible benefits
 
 | Metric | Result | Description |
 | :--- | :--- | :--- |
-| **Prediction Accuracy** | **99.10%** | Our model correctly classifies cell states with over 99% accuracy on previously unseen test data. |
+| **Prediction Accuracy** | **98.70%** | Our model correctly classifies cell states with 98.70% accuracy on previously unseen test data. |
 | **Interpretability** | **100% Transparency** | Through the attention mechanism, we can analyze which genes the model focuses on with 100% transparency, identifying critical genes associated with cancer. |
 | **Analysis Acceleration** | **70% Faster** | By automating data preparation and preprocessing steps, we have accelerated the process by approximately 70% compared to manual analysis. |
-| **Potential Drug Discovery** | **Target Gene Identification** | The genes identified as important by the model (e.g., Gene_788, Gene_917) are potential candidates for new drug targets or biomarkers, which can reduce drug development costs. |
+| **Potential Drug Discovery** | **Target Gene Identification** | The genes identified as important by the model (e.g., Gene_143, Gene_647) are potential candidates for new drug targets or biomarkers, which can reduce drug development costs. |
 
 ---
 
@@ -33,7 +33,7 @@ This project not only achieves high accuracy but also provides tangible benefits
 ![Model Training Results](./results/02_transformer_training.png)
 
 **📈 Results:**
-- **Accuracy:** The model achieved **99.10% test accuracy** after 23 epochs. The training and validation accuracy curves move together, indicating that the model is not overfitting.
+- **Accuracy:** The model achieved **98.70% test accuracy** after 23 epochs. The training and validation accuracy curves move together, indicating that the model is not overfitting.
 - **Loss:** The error rate was successfully reduced as training progressed.
 - **Confusion Matrix:** The model predicts the "Healthy" and "Early_Cancer" classes **flawlessly**, with very small error margins in the other classes.
 
@@ -42,8 +42,8 @@ This project not only achieves high accuracy but also provides tangible benefits
 ![Attention Analysis Results](./results/03_attention_analysis.png)
 
 **📈 Results:**
-- **Most Important Genes:** The model focused most on genes like **Gene_788, Gene_917, and Gene_484** to predict cell state. These genes could be potential targets for cancer research.
-- **Prediction Confidence:** The model makes its predictions with an average **confidence of 99.83%**, demonstrating its stability and reliability.
+- **Most Important Genes:** The model focused most on genes like **Gene_143, Gene_647, and Gene_613** to predict cell state. These genes could be potential targets for cancer research.
+- **Prediction Confidence:** The model makes its predictions with an average **confidence of 99.91%**, demonstrating its stability and reliability.
 - **Gene Embedding Space:** In the space where genes are represented semantically, different cell types form clusters, proving that the model has learned the biological relationships between genes.
 
 ---

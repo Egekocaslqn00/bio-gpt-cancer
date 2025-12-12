@@ -8,7 +8,7 @@ Total Parameters,1115652
 Training Samples,3200
 Validation Samples,800
 Test Samples,1000
-Best Validation Loss,0.0143207386136055
-Final Test Accuracy,99.10%
-Final Test Loss,0.0439
+Best Validation Loss,0.029334265738725662
+Final Test Accuracy,98.70%
+Final Test Loss,0.0857
 Device,cpu
