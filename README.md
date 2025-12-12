@@ -48,17 +48,14 @@ This project not only achieves high accuracy but also provides tangible benefits
 
 ---
 
-## 📝 License: What is the MIT License and Why is it Important?
+## 📝 License
 
-This project is released under the **MIT License**, an open-source software standard. This is not a thank you, but a **permission slip**.
+This project is released under the MIT License, one of the most permissive and widely-used open-source licenses. Key features:
 
-**What does this mean?**
-- **It's Free:** You don't have to pay anything for this license. It's completely free.
-- **Freedom of Use:** Anyone (individuals, companies, academics) can copy, modify, distribute, and even use this project for commercial purposes.
-- **No Liability:** The project owner cannot be held responsible for any issues that may arise from using the project.
-
-**Why is this important for your internship application?**
-Because companies and professional developers want to know what they can and cannot legally do. Adding an MIT license to your project shows that it is **professional and open for use**. This is a detail that adds value to your project.
+- Free to use, copy, and modify
+- Commercial use is permitted
+- Can be distributed freely
+- Only requirement is to preserve the license text and copyright notice
 
 ---
 

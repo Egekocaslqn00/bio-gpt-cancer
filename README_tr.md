@@ -48,17 +48,14 @@ Bu proje, sadece yüksek doğruluk elde etmekle kalmaz, aynı zamanda biyolojik 
 
 ---
 
-## 📝 Lisans: MIT Lisansı Nedir ve Neden Önemli?
+## 📝 Lisans
 
-Bu proje, açık kaynak bir yazılım standardı olan **MIT Lisansı** altında yayınlanmıştır. Bu bir teşekkür değil, bir **izin belgesidir**.
+Bu proje MIT Lisansı altında yayınlanmıştır. MIT Lisansı, açık kaynak yazılım geliştirmede en yaygın kullanılan lisanslardan biridir ve şu özelliklere sahiptir:
 
-**Peki bu ne anlama geliyor?**
-- **Ücretsizdir:** Bu lisans için hiçbir yere para ödemenize gerek yoktur. Tamamen ücretsizdir.
-- **Kullanım Özgürlüğü:** Herkes (bireyler, şirketler, akademisyenler) bu projeyi kopyalayabilir, değiştirebilir, dağıtabilir ve hatta ticari amaçlarla kullanabilir.
-- **Sorumluluk Yok:** Projeyi kullanırken oluşabilecek herhangi bir sorundan dolayı proje sahibi sorumlu tutulamaz.
-
-**Neden staj başvurunuz için bu önemli?**
-Çünkü şirketler ve profesyonel geliştiriciler, yasal olarak ne yapıp yapamayacaklarını bilmek isterler. Projenize bir MIT lisansı eklemek, onun **profesyonel ve kullanıma açık** olduğunu gösterir. Bu, projenize değer katan bir detaydır.
+- Projeyi ücretsiz olarak kullanabilir, kopyalayabilir ve değiştirebilirsiniz
+- Ticari projelerde kullanım serbesttir
+- Kaynak kodunu istediğiniz gibi dağıtabilirsiniz
+- Tek gereklilik, lisans metnini ve telif hakkı bildirimini korumaktır
 
 ---
 
