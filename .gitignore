@@ -26,14 +26,14 @@ wheels/
 *.egg
 
 # Data files (large)
-data/*.h5ad
-data/*.csv
-data/*.pkl
+# data/*.h5ad
+# data/*.csv
+# data/*.pkl
 
 # Model files
-models/*.pth
-models/*.pt
-models/*.pkl
+# models/*.pth
+# models/*.pt
+# models/*.pkl
 
 # Results (optional - remove if you want to track results)
 # results/
